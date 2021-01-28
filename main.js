@@ -58,6 +58,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // Modules to control application life and create native browser window
 var electron_1 = require("electron");
 var path = __importStar(require("path"));
+var QnAservice = require("./QnAservice");
 ;
 var questions;
 var mainWindow;

@@ -1,6 +1,7 @@
 // Modules to control application life and create native browser window
 import {app, BrowserWindow, ipcMain, net} from "electron";
 import * as path from "path";
+const QnAservice = require("./QnAservice");
 
 export {QuestionsObject};
 
